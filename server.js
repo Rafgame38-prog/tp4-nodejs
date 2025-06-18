@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db.js';
-import userRouter from './routes/userRouter.js';
+import userRouter from './routes/user.routes.js';
 import swaggerUi from 'swagger-ui-express';
 import { swaggerSpec } from './swagger.js';
 import { createDefaultAdmin } from './initAdmin.js';
