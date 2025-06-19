@@ -27,7 +27,7 @@ export const swaggerDefinition = {
 
 export const options = {
   swaggerDefinition,
-  apis: ['./routes/*.js'], // Ajoute des annotations JSDoc dans tes fichiers de routes !
+  apis: ['./routes/*.js'], 
 };
 
 export const swaggerSpec = swaggerJSDoc(options);
