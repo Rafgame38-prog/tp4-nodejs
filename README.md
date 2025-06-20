@@ -103,7 +103,6 @@ swagger.js           # Pour la documentation
 - **Rôle par défaut** : `user`.
 - **Mot de passe** : min. 8 caractères, toujours haché.
 - **Token JWT** : transmis dans l’en-tête `Authorization: Bearer <token>`.
-- **Sécurité** : pensez à ne jamais exposer le champ `password` dans les réponses API.
 
 ---
 
